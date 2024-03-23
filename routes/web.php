@@ -28,4 +28,4 @@ Route::post('/post', function () {
     return "hi this is post";
 });
 
-//Route::put('/store','BlogController@store');
+Route::put('/store','BlogController@store');
